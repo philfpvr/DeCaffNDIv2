@@ -1,0 +1,26 @@
+{
+	"id": "DeCaffNDIScan",
+	"name": "Dicaffeine-NDI-Scanner",
+	"shortname": "DeCaffNDI-Scan",
+	"description": "A tool to scan available NDI's on the network and link to Dicaffeine Player for Raspberry Pi",
+	"version": "0.0.1",
+	"license": "MIT",
+	"repository": "",
+	"bugs": "",
+	"maintainers": [
+		{
+			"name": "PhilA",
+			"email": "mouldskool@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Dicaffeine",
+	"products": ["DeCaffeiNDIScan"],
+	"keywords": ["NDI", "Raspberry Pi", "Dicaffeine"]
+}

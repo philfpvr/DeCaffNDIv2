@@ -1,0 +1,24 @@
+{
+	"name": "decaffinate-ndi",
+	"version": "0.1.0",
+	"main": "main.js",
+	"scripts": {
+		"format": "prettier -w .",
+		"package": "companion-module-build"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-your-module-name.git"
+	},
+	"dependencies": {
+		"@companion-module/base": "~1.7.0",
+		"axios": "^1.6.7",
+		"ffi-napi": "^4.0.3",
+		"grandiose-mac": "^0.0.6"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.4.2"
+	},
+	"prettier": "@companion-module/tools/.prettierrc.json"
+}
